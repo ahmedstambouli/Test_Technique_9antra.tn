@@ -1,0 +1,45 @@
+
+
+.body{
+    padding: 2%;
+}
+
+.Title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    
+}
+
+.btn-rose {
+    background-color: #b80860;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-repeat: no-repeat;
+  }
+  
+  .btn-rose:hover {
+    background-color: #e6006d;
+  }
+
+  .courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px; /* Espace entre les éléments */
+    padding: 16px;
+  }
+  
+  .course-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 16px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
